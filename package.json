@@ -1,0 +1,15 @@
+{
+  "name": "agroplot",
+  "version": "1.0.0",
+  "description": "Agronomic & Physiological Plant Data Collection and Analysis Web App",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jstat": "^1.9.6",
+    "sql.js": "^1.12.0"
+  }
+}
